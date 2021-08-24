@@ -1,0 +1,158 @@
+.try-pu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+.try-pu__wrap {
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.try-pu__overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.8);
+}
+
+.try-pu__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.try-pu__close::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  border: 1px solid #E7B4BD;
+  width: 20px;
+  transform: rotate(45deg);
+}
+
+.try-pu__close::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  border: 1px solid #E7B4BD;
+  width: 20px;
+  transform: rotate(-45deg);
+}
+
+.try-pu__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: #08486C;
+  margin-bottom: 25px;
+}
+
+.try-pu__place, .try-pu__time {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2rem;
+  color: #000000;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.try-pu__place-select, .try-pu__time-select {
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 5px 40px 5px 5px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2rem;
+  color: #000000;
+  cursor: pointer;
+  width: 100%;
+}
+
+.try-pu__select-wrap {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.try-pu__select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  display: flex;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.try-pu__column:nth-child(2) {
+  padding: 55px 40px;
+}
+
+.soglasie {
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.soglasie span, .soglasie a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.try-pu__submit {
+  padding: 5px 35px;
+  border: none;
+  background: #3881AE;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2.3rem;
+  color: #FFFFFF;
+}
+
+#try-pu__map  {
+  width: 280px;
+  height: 100%;
+}
+
+.try-pu__phone {
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.try-pu__phone, .try-pu__phone::placeholder {
+  font-family: 'Geometria', sans-serif;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}

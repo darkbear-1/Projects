@@ -1,0 +1,153 @@
+.login-page {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.login-page .container {
+  max-width: 550px;
+}
+
+.login-page__title {
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #08486C;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.woocommerce-form-login label[for="username"], .woocommerce-form-login label[for="password"] , .woocommerce-form-register label[for="reg_email"] {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.0rem!important;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+#customer_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titles-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.titles-wrap .or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: #08486C;
+  border: 2px solid #08486C;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 16px;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.login-page__title {
+  opacity: 0.6;
+}
+
+.login-page__title.active {
+  opacity: 1;
+}
+
+.login-page__title--register:hover {
+  opacity: 1;
+  transition: 0.4s ease;
+}
+
+.u-columns {
+  display: none;
+}
+
+.u-columns.show {
+  display: block;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row input.input-text::placeholder {
+  font-family: 'Geometria', sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #000000;
+  background: #FFFFFF;
+  padding: 3px;
+  outline: 0;
+}
+
+.woocommerce form .form-row input.input-text {
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.woocommerce form .show-password-input, .woocommerce-page form .show-password-input {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit, .woocommerce-form-register__submit, button[name="save_account_details"], .woocommerce-Button {
+  padding: 6px 20px!important;
+  background-color: #3881AE!important;
+  border-radius: 3px!important;
+  border: none!important;
+  font-weight: normal!important;
+  font-size: 1.8rem!important;
+  line-height: 2.3rem!important;
+  text-align: center;
+  color: #FFFFFF!important;
+}
+
+.form-row:not(.form-row-wide) {
+  margin-top: 15px!important;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme input {
+  margin-right: 8px;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme {
+  display: flex;
+  align-items: center;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme span, .woocommerce-form-register p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem!important;
+  color: #000000;
+}
+
+.lost_password {
+  margin-top: 15px;
+}
+
+.lost_password a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem!important;
+  color: #000000;
+}
+
+.woocommerce-form-register p, .woocommerce-form-register p a {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.6rem!important;
+  color: #000000;
+}

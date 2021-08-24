@@ -1,0 +1,79 @@
+@import "main-page.css";
+@import "single-product.css";
+@import "try-pu.css";
+@import "one-click.css";
+@import "product-added.css";
+@import "shop.css";
+@import "o-kompanii.css";
+@import "brands.css";
+@import "korzina.css";
+@import "my-account.css";
+@import "login-page.css";
+@import "wishlist.css";
+@import "checkout.css";
+@import "default.css";
+@import "adaptive-mobile.css";
+@import "adaptive-tablet.css";
+
+
+.upper{
+    text-transform: uppercase;
+}
+
+.company__text .advantages__list{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 40px;
+}
+
+.company__text .advantages__list .advantages__item{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 33.3%;
+}
+
+.company__text .advantages__item, .advantages__item img{
+    text-align: center;
+}
+
+
+.company__text  .advantages__item img{
+    margin: 0 auto;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.company__text .advantages__list .advantages__item p{
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.cart-page .woocommerce-info{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+.showcoupon{
+    color: #000;
+}
+
+
+.single-product__column  img.emoji{
+    width: 18px!important;
+    height: 18px!important;
+}
+
+.price del{
+    margin-right: 15px;
+    color: #3881AE;
+}
+
+.price ins{
+    margin-right: 15px;
+    color: #3881AE;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,72 @@
+.my-account {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.my-account__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #08486C;
+  margin-bottom: 40px;
+}
+
+.woocommerce-MyAccount-navigation-link a {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.9rem;
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.woocommerce-MyAccount-content p {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.woocommerce-MyAccount-content p a {
+    color: #000;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    margin-bottom: 60px;
+}
+
+.is-active a {
+  color: #08486C;
+}
+
+.woocommerce-form-row--first, .woocommerce-form-row--last {
+  display: flex!important;
+  flex-direction: column!important;
+  align-items: flex-start!important;
+}
+
+.my-account form .form-row label {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem!important;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.my-account fieldset {
+  display: block;
+  margin-top: 30px;
+}
+
+.my-account fieldset legend {
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 3rem;
+  margin-bottom: 20px;
+  color: #202020;
+  display: block;
+}
+
+button[name="save_account_details"] {
+  margin-top: 20px!important;
+}

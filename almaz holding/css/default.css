@@ -1,0 +1,11 @@
+.image--left {
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+.image--right {
+    float: right;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}

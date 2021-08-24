@@ -1,0 +1,113 @@
+/* .tinv-wishlist {
+  width: 30px;
+  height: 30px;
+
+} */
+
+.tinv-wishlist {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tinv-header__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #08486C;
+  margin-bottom: 40px;
+}
+
+.tinv-wishlist .price__regular {
+  display: none;
+}
+
+.tinvwl-table-manage-list th, .tinvwl-table-manage-list th span, .tinvwl-table-manage-list td time, .tinvwl-table-manage-list .tinvwl-txt {
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #000000;
+  padding: 9px;
+}
+
+.tinvwl-table-manage-list td.product-stock i {
+  display: none;
+}
+
+ .tinvwl-table-manage-list button[name=tinvwl-add-to-cart] {
+  padding: 6px 20px!important;
+  background-color: #3881AE!important;
+  border-radius: 3px!important;
+  border: none!important;
+  text-align: center;
+  color: #fff!important;
+  color: #FFFFFF!important;
+ }
+
+ .tinvwl-table-manage-list button[name=tinvwl-add-to-cart] .tinvwl-txt {
+  font-weight: normal!important;
+  font-size: 1.8rem!important;
+  line-height: 2.3rem!important;
+  color: #fff;
+ }
+
+ #tinvwl_product_actions {
+   border: 1px solid #EAEAEA;
+   box-sizing: border-box;
+   border-radius: 4px;
+   padding-left: 15px;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 2rem;
+   color: #000000;
+   cursor: pointer;
+   width: 100%;
+ }
+
+ .tinvwl-break-checkbox {
+   width: auto;
+    background: #000000!important;
+    border-radius: 3px!important;
+    font-weight: normal!important;
+    font-size: 1.6rem!important;
+    line-height: 2rem!important;
+    text-align: center;
+    color: #FFFFFF!important;
+ }
+
+.tinvwl-break-checkbox .tinvwl-mobile {
+  display: none;
+}
+
+.tinvwl-to-right.look_in button {
+  padding: 6px 20px!important;
+    background-color: #3881AE!important;
+    border-radius: 3px!important;
+    border: none!important;
+    font-weight: normal!important;
+    font-size: 1.8rem!important;
+    line-height: 2.3rem!important;
+    text-align: center;
+    color: #FFFFFF!important;
+}
+
+.cart-empty {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 3.2rem;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.tinvwl-loop-button-wrapper {
+  display: none;
+}
+
+.tinv-wishlist table td.product-price ins {
+  text-decoration: none;
+}
+
+.tinv-wishlist table td.product-price del {
+  display: none;
+}
